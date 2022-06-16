@@ -1,0 +1,17 @@
+﻿<Window x:Class="Expressions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Expressions"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="316" Width="559">
+    <Grid Height="306" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="559" Margin="0,0,0,-6">
+        <Label Content="Expression: " HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top" Width="94" Height="36" FontSize="16"/>
+        <TextBox x:Name="expressionTextBox" TextWrapping="Wrap" Margin="0,0,140,184" FontSize="16" HorizontalAlignment="Right" Width="231" Height="37" VerticalAlignment="Bottom"/>
+        <TextBox  x:Name="resultTextBox" TextWrapping="Wrap" Margin="188,0,0,74" FontSize="16" HorizontalAlignment="Left" Width="231" Height="37" VerticalAlignment="Bottom"/>
+        <Label Content="Result: " HorizontalAlignment="Left" Margin="75,0,0,79" Width="94" FontSize="16" Height="36" VerticalAlignment="Bottom"/>
+        <Button Content="Evaluate" Margin="232,0,0,138" FontSize="16" Click="Button_Click" HorizontalAlignment="Left" Width="142" Height="30" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>
